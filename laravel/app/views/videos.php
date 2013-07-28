@@ -2,7 +2,8 @@ Videos
 
 <h1><?= $standard->title;?></h1>
 <!-- <?= $standard->id;?>
-<?= $standard->exercise_url;?> -->
+<?= $standard->exercise_url;?> //keep these variables just so we know what we dealin wit-->
+
 <?= $standard->exercise_title; ?>
 
 
