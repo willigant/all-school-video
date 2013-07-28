@@ -13,6 +13,6 @@
 
 Route::get('/', 'BucketController@index');
 Route::get('/bucket/standards/{bucket_id}', 'BucketController@standards');
-Route::get('/standard/videos/{standard_id}', 'standard@videos');
 Route::get('/video/upvote/{video_id}', 'video@upvote');
 Route::get('/video/downvote/{video_id}', 'video@downvote');
+Route::get('/standard/videos/{standard_id}', 'StandardController@videos');
