@@ -1,6 +1,6 @@
 Videos
 
-<?= $standard->title;?>
+<h1><?= $standard->title;?></h1>
 <?= $standard->id;?>
 <?= $standard->exercise_title; ?>
 <?= $standard->exercise_url;?>
