@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Video Ratings</title>
+  <title>Standards Page</title>
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
@@ -17,7 +17,15 @@
   <![endif]-->
 </head>
 <body>
-    <h1 class="red">All School Video</h1>
+    <div class="row">
+    <h1>Choose Your Bucket</h1>
+        <?php foreach ($buckets as $bucket) { ?>
+            <a href="/buckets/standard/<? $id; ?>"><? $name; ?></a>
+        <? } ?>
+        <a href="/buckets/standard/3">Bucket 3</a>
+    </div>
 </body>
 </html>
+
+
 
