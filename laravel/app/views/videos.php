@@ -1,10 +1,8 @@
-Videos
-
-<h1><?= $standard->title;?></h1>
+<h1><?= $standard->title;?> Videos</h1>
+<h2>Excercise: <?= $standard->exercise_title; ?></h2>
 <!-- <?= $standard->id;?>
 <?= $standard->exercise_url;?> //keep these variables just so we know what we dealin wit-->
 
-<?= $standard->exercise_title; ?>
 
 
 <? foreach ($videos as $video) { 
@@ -18,3 +16,5 @@ Videos
     </iframe></li>
 
 <? } ?>
+
+
