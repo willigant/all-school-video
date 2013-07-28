@@ -15,6 +15,19 @@
         |
         */
 
+        public function index()
+        {
+
+            $buckets = DB::select('select * from buckets ');
+
+
+            return View::make('buckets',
+                array('buckets' => $buckets)
+            );
+
+        }
+
+
         public function standards($bucket_id)
         {
 

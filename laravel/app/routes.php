@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'bucket@index');
+Route::get('/', 'BucketController@index');
 Route::get('/bucket/standards/{bucket_id}', 'BucketController@standards');
 Route::get('/standard/videos/{standard_id}', 'standard@videos');
 Route::get('/video/upvote/{video_id}', 'video@upvote');
